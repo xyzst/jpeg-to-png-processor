@@ -7,7 +7,7 @@ directory structure of the directory to be processed.
 * Python 3.X
 * Pillow (https://python-pillow.org)
 
-### Usage
+## Usage
     $ git clone https://github.com/xyzst/jpeg-to-png-processor.git
     $ cd jpeg-to-png-processor
     $ pip install -r requirements.txt
