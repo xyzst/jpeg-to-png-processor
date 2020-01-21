@@ -28,7 +28,7 @@ def jpeg_to_png(directories):
                 os.mkdir(directories[1] + '/' + subdir)
             with Image.open(jpeg) as jpg:
                 print('Processing %s...' % jpeg)
-                jpg.save(directories[1] + '/' + jpeg + '.png', 'png')
+                jpg.save(directories[1] + '/' + os.path.splitext(jpeg)[0] + '.png', 'png')
 
 
 def verify_arguments(jpeg, png):
